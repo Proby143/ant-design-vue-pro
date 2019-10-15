@@ -33,17 +33,17 @@
         </a-layout-footer>
       </a-layout>
     </a-layout>
-    <Authorized :authority="['admin']">
+    <!-- <Authorized :authority="['admin']">
       <SettingDrawer />
-    </Authorized>
+    </Authorized> -->
   </div>
 </template>
 
 <script>
 import Header from "./Header";
-import Footer from "../components/GlobalFooter";
+//import Footer from "../components/GlobalFooter";
 import SiderMenu from "./SiderMenu";
-import SettingDrawer from "../components/SettingDrawer";
+// import SettingDrawer from "../components/SettingDrawer";
 import Logo from "@/assets/logo.svg";
 
 export default {
@@ -62,9 +62,9 @@ export default {
   },
   components: {
     Header,
-    Footer,
+    // Footer,
     SiderMenu,
-    SettingDrawer,
+    // SettingDrawer,
     Logo
   }
 };

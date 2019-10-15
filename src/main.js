@@ -34,7 +34,9 @@ import {
   Popover,
   Progress,
   Alert,
-  message
+  message,
+  Table,
+  Divider
 } from "ant-design-vue";
 import Authorized from "./components/Authorized";
 import Auth from "./directives/auth";
@@ -93,6 +95,8 @@ Vue.use(Row);
 Vue.use(Popover);
 Vue.use(Progress);
 Vue.use(Alert);
+Vue.use(Table);
+Vue.use(Divider);
 Vue.prototype.$message = message;
 
 const i18n = new VueI18n({

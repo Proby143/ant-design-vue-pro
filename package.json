@@ -16,6 +16,7 @@
         "moment": "^2.24.0",
         "nprogress": "^0.2.0",
         "query-string": "^6.4.2",
+        "reqwest": "^2.0.5",
         "resize-detector": "^0.2.0",
         "vue": "^2.6.6",
         "vue-color": "^2.7.0",
